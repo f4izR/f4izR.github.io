@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="icon.ico">
+<script src="https://kit.fontawesome.com/d5deb5bc44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+   <div id="header">                                                                 <!--to diffrentiate/name--> 
+   <div class="container">
+    <nav>
+        <img src="phaiz.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Hello</p>
+        <h1>I am <span>Faiz</span> and I am a<br>Developer</h1>
+    </div>
+   </div>
+   </div>
+   <!------about-------->
+
+<div id="about">
+    <div class="container"> 
+        <div class="row">
+            <div class="about-col-1">
+                <img src="1me.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am constantly seeking new ways to expand my knowledge and skills in the field of software development. I am particularly interested in Frontend development. My ultimate goal is to become a proficient software engineer who can deliver innovative and high-quality solutions for my clients. I am a fast learner, a team player, and I am always eager to take on new challenges. I am excited to be part of a team of talented engineers and to continue to grow my skills in this field.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" >Skills</p>
+                        
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Develepment</span><br>Front & Back End</li>
+                            <li><span>App Develepment</span><br>Building Andriod/ios Apps</li>
+                        </ul>
+                     </div>  
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>UI Designer at Air University</li>
+                            <li><span>2020-2021</span><br>Team Lead at Instant Solutuons</li>
+                            <li><span>2017-2019</span><br>App Develeper at Sega</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Software Engineering From Air University</li>
+                            <li><span>2014</span><br>FSC from Fazaia College</li>
+                            <li><span>2012</span><br>Matric From APSACS</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-----services-------->
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I serve my expertise for your business effectively worldwide Internet exposure at low prices.
+                 I will deliver professional and modern web designs that will promote your brand frequently.
+                  I complete all my projects with absolute devotion and perfection.
+                   </p>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Develepment</h2>
+            <p>I am Professional App Developer,the code I write is clean,
+                 documented and properly refactored in  Studio. 
+                 The UI of  app will be designed as per your requirement and
+                I'll be there for you brain-storming creative ideas for more graphical enhancement in your UI.
+                   </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX DESIGN</h2>
+            <p>I also design UI and UX for both mobile and web applications.
+                 My designs have a trendy, modern, and user friendly approach for each digital product.
+                  I always think about creativity, usability, consistency and simplicity.
+                   </p>
+        </div>
+
+    </div>
+
+</div>
+
+
+</div>
+<!-----contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>phaiz007@outlook.com</p>
+                <p><i class="fa-solid fa-phone"></i>+92 3095414119</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100077183990409&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=" https://twitter.com/Fai2_ur_rehman?t=dPGxAI3ivaVbU1isc_E4xA&s=08"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://www.linkedin.com/in/phaiz/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://github.com/f4izR"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="https://instagram.com/phaiz.exe?igshid=N2JhNDIwYjc="><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form >
+
+                    <input type="text" name="Name" placeholder="  Your Name" required>
+                    <input type="email" name="email" placeholder="  Your Email" required>
+                    <textarea name="Messege"  rows="6" placeholder="  Your Message"></textarea>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copyright © Faiz-ur-Rehman 2023<i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+    
+</body>
+</html>
