@@ -41,6 +41,9 @@ body::-webkit-scrollbar {
 
 }
 nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex; /*so image and links will be side by side*/
     align-items: center;                     
     justify-content: space-between;
